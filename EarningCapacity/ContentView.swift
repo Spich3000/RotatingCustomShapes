@@ -13,7 +13,7 @@ struct ContentView: View {
             StaticShapeView()
 
             RotatingCircleView()
-                .scaleEffect(CGSize(width: 0.8, height: 0.8), anchor: .top)
+                .scaleEffect(CGSize(width: 0.7, height: 0.7))
         }
     }
 }

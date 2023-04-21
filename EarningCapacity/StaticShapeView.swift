@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct StaticShapeView: View {
     
     var pointSet = PointSet()
