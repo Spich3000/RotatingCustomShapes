@@ -13,6 +13,8 @@
 		A29C37F429F1AD5A005D6361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29C37F329F1AD5A005D6361 /* Preview Assets.xcassets */; };
 		A29C37FB29F1E935005D6361 /* RotatingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C37FA29F1E935005D6361 /* RotatingCircleView.swift */; };
 		A29C37FD29F3382E005D6361 /* AnotherRotatingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C37FC29F3382E005D6361 /* AnotherRotatingCircleView.swift */; };
+		A29C37FF29F338A5005D6361 /* PointSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C37FE29F338A5005D6361 /* PointSet.swift */; };
+		A29C380129F338CD005D6361 /* StaticShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C380029F338CD005D6361 /* StaticShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		A29C37F329F1AD5A005D6361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A29C37FA29F1E935005D6361 /* RotatingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingCircleView.swift; sourceTree = "<group>"; };
 		A29C37FC29F3382E005D6361 /* AnotherRotatingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherRotatingCircleView.swift; sourceTree = "<group>"; };
+		A29C37FE29F338A5005D6361 /* PointSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointSet.swift; sourceTree = "<group>"; };
+		A29C380029F338CD005D6361 /* StaticShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			children = (
 				A29C37EC29F1AD59005D6361 /* EarningCapacityApp.swift */,
 				A29C37EE29F1AD59005D6361 /* ContentView.swift */,
+				A29C380029F338CD005D6361 /* StaticShapeView.swift */,
 				A29C37FA29F1E935005D6361 /* RotatingCircleView.swift */,
 				A29C37FC29F3382E005D6361 /* AnotherRotatingCircleView.swift */,
+				A29C37FE29F338A5005D6361 /* PointSet.swift */,
 				A29C37F029F1AD5A005D6361 /* Assets.xcassets */,
 				A29C37F229F1AD5A005D6361 /* Preview Content */,
 			);
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29C380129F338CD005D6361 /* StaticShapeView.swift in Sources */,
 				A29C37FD29F3382E005D6361 /* AnotherRotatingCircleView.swift in Sources */,
 				A29C37FB29F1E935005D6361 /* RotatingCircleView.swift in Sources */,
 				A29C37EF29F1AD59005D6361 /* ContentView.swift in Sources */,
 				A29C37ED29F1AD59005D6361 /* EarningCapacityApp.swift in Sources */,
+				A29C37FF29F338A5005D6361 /* PointSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
