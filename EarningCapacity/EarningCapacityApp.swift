@@ -11,7 +11,7 @@ import SwiftUI
 struct EarningCapacityApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RotatingCircleView()
         }
     }
 }
